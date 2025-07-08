@@ -1,18 +1,26 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+### 🔗 Four Connect (Simplified CLI – vs Computer)
 
-The workspace contains two folders by default, where:
+```markdown
+# 🔗 Four Connect (Java - Console - Player vs Computer)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A simplified console version of **Four Connect**, where the player alternates moves with a basic computer opponent on a 6x7 grid.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🎯 Features
+- 2-player simulation: player and AI
+- ASCII-based 6x7 board rendering
+- Horizontal and vertical win detection
+- Randomized computer move selection
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🧠 Concepts Used
+- Multidimensional arrays (6x7)
+- Looping and condition checking
+- Game-state visualization in text
+- Randomized turn mechanics
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🔧 How to Run
+```bash
+javac FourConnect.java
+java FourConnect
